@@ -1,6 +1,6 @@
 # Amazon-Fashon-Recommendation
 About the Dataset:
-Dataset was generated using amazon product advertising API (https://webservices.amazon.com/paapi5/documentation/)
+Dataset was generated using [Amazon product advertising API](https://webservices.amazon.com/paapi5/documentation/)
 
 This dataset consists of collection of all the women's tops sold through amazon website. The data contains ~184,000 products.
 
@@ -19,3 +19,5 @@ Tasks Performed:
 7. Calculating image similarity using CNN with keras.
 8. Comparing results of step 3,4,5,6,7
 9. Using TF IDF vector of title,brand,color and the vectorized image and assigning weights to each vector before combining it into a single sparse vector and then calculating the eculidian distances to find the  top similar products.
+
+Implementation can be found in this [Notebook](AmazonFashon.ipynb)
